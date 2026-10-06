@@ -86,4 +86,3 @@ export async function down(db: Kysely<any>): Promise<void> {
 
 - Both `up(db: Kysely<any>)` and `down(db: Kysely<any>)` must be exported.
 - Import `sql` from `kysely` only if the file uses it.
-````
